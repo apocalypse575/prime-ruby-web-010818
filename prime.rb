@@ -5,7 +5,8 @@
 #   end
 
 def prime?(num)
-  num = num.abs
+    num = num.abs
+    return true if num == 1
       i = 2
       while i < num
         return false if num % i == 0
