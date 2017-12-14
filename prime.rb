@@ -7,7 +7,7 @@
 def prime?(num)
     num = num.abs
     return false if num == 1
-    return true if num == 0
+    return false if num == 0
       i = 2
       while i < num
         return false if num % i == 0
