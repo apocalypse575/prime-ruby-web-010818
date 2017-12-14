@@ -5,6 +5,7 @@
 #   end
 
 def prime?(num)
+  num = Math.abs(num)
       i = 2
       while i < num
         return false if num % i == 0
